@@ -9,10 +9,15 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        <h1>
-            <asp:Login ID="Login1" runat="server">
-            </asp:Login>
-            &nbsp;</h1>
+        <h1>Inicio</h1>
+        <p>
+            <asp:Label ID="Label1" runat="server" Text="Nombre:"></asp:Label>&nbsp;<asp:TextBox
+                ID="TextBox1" runat="server"></asp:TextBox></p>
+        <p>
+            <asp:Label ID="Label2" runat="server" Text="Apellidos:"></asp:Label>
+            <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox></p>
+        <p>
+            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Log In" />&nbsp;</p>
         <p>
             &nbsp;</p>
         </div>

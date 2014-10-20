@@ -15,7 +15,7 @@ public partial class Default2 : System.Web.UI.Page
     {
         if (!IsPostBack)
         {
-
+            lbl1.Text = "Hola "+Session["nombre"]+"!";
         }
     }
 }
